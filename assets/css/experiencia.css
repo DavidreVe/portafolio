@@ -1,0 +1,59 @@
+.experiencia__laboral{
+    padding-bottom: 2rem;
+}
+.titulo__experiencia{
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img__experiencia{
+    width: 100%;
+    padding-top: 2rem;
+}
+.title__experiencia{
+    line-height: 10px;
+    padding-left: 2rem;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: var(--font-family);
+}
+.descripcion__experiencia{
+    padding-left: 2rem;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: var(--font-family);
+}
+.btn{
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.Repositorio{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+}
+.verdemo{
+    cursor: pointer;
+    padding-left: 10px;
+    width: 100px;
+    height: 40px;
+    color: wheat;
+    border: 1px solid #2a7ae4;
+    background-color: #2a7ae4;
+}
+
+@media screen and (min-width: 1440px) {
+    .titulo__experiencia{
+        font-size: 32px;
+    }
+    .title__experiencia{
+        font-size: 25px;
+    }
+    .descripcion__experiencia{
+        font-size: 22px;
+    }
+    
+}

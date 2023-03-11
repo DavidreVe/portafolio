@@ -1,0 +1,14 @@
+
+.conte__footer{
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--font-texto);
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 1400px) {
+    .texto__footer{
+        font-size: 22px;
+    }
+   
+}
